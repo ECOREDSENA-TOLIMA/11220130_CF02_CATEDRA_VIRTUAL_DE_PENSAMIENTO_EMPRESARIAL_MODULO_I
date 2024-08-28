@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Innovación y mejoramiento estratégico',
+    descripcionCurso:
+      'El tener un producto o servicio como soporte del desarrollo empresarial de la organización, trae consigo el deber misional, correlacionado con la visión a donde se quiere llegar. Además, luego pasa por un proceso de venta, llevado al mercado con rigurosas acciones promocionales, no solo con el fin de contactar al consumidor, sino también para conocer sus preferencias y gustos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Comportamiento del mercado',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Creación e innovación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Presupuesto para la promoción de ventas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Acciones promocionales',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Seguimiento y control de la venta',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Mejoramiento del plan estratégico',
         desarrolloContenidos: true,
       },
     ],
@@ -131,7 +147,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -146,9 +162,24 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'José Herney Sánchez Pizarro',
+          cargo: 'Experto temático',
+          centro: 'Dirección General SENA',
+        },
+        {
+          nombre: 'Kennia Andrea Peña Barrera',
+          cargo: 'Asesora pedagógica',
+          centro: 'Dirección General SENA',
+        },
+        {
+          nombre: 'Zulma Yurany Viancha Rodríguez',
+          cargo: 'Líder de la línea de producción',
+          centro: 'Dirección General SENA',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -156,18 +187,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'Veimar Celis Melendez',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -176,18 +222,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'Norma Contanza Morales Cruz',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

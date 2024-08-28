@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Titulo_de_primer_nivel
+      h1 Comportamiento del mercado
       
 </template>
 
