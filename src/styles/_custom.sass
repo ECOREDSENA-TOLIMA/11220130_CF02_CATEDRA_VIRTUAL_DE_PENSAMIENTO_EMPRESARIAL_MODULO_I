@@ -104,16 +104,20 @@
   border-radius: 0px 0px 20px 20px 
 .bg--gradientBlue
   background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  margin-inline: -3rem 
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 .dialogo.color-primario .dialogo__words__word
   color: #3c7792 !important
 
 .bg1
-  //background-image: url(../assets/curso/temas/tema6/imgfondo.png) !important
+  background-image: url(../assets/curso/temas/imgfondo.png) !important
+  
 .slyder-b-img
-  //background-image: url(../assets/curso/temas/tema6/imgfondo.png) !important
+  background-image: url(../assets/curso/temas/imgfondo.png) !important
 .fondo
-  //background-image: url(../assets/curso/temas/tema6/imgfondo.png) !important
+  background-image: url(../assets/curso/temas/imgfondo.png) !important
 .slyder-f__btn i
   color:#983333
 
@@ -212,14 +216,38 @@
     right: 0
     width: calc( 100% - 60px)
     height: 100%
-    background-color: #C5E5FE
+    background-color: #DFFAFF
 
   @media (max-width: 1000px)
     padding-right: 2rem
 
-.crd--first, .crd--last
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E7EFFB
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
   &::before 
-    background-color: #DDEDF8 !important
+    background-color: #DFFAFF !important
+.crd--last
+  &::before 
+    background-color: #E7EFFB !important
 
 .crd--first
   &::before 
@@ -227,7 +255,8 @@
 .crd--last
   &::before 
     border-bottom-left-radius: 30px
-
+i.fas.fa-calculator
+  color: $color-primario
 .avatar
   position: absolute
   bottom: 0
@@ -236,8 +265,14 @@
   @media (max-width: 1000px)
     display: none
 .tarjeta.color-primario
-    background-color: #DFFAFF
-
+  background-color: #DFFAFF
+.tarjeta-slide.color-primario .tarjeta-slide__img
+    background-color: #E7EFFB
+.tabs-a
+  .tarjeta.color-secundario 
+    background-color: #E7EFFB
+.tabs-a__tab
+    background-color: #EBE4E8
 ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
   background-color: #EEAC3A !important
@@ -250,7 +285,8 @@
 
 .tarjeta--azul
     background-color: #EBE4E8
-
+.tarjeta--azull
+    background-color: #DFFAFF
 .acordion__accion__btn--b
   border: #98034e solid 1px
   background-color: #98034e
@@ -386,9 +422,7 @@
 
 .img-infografica__item__dot:before
     opacity: 1 !important
-.tarjeta--boton 
-  background-color: #F3E0E9
-  height: 300px
+
 //CONTROLAR LAS IMAGENES EN MOVIL
 @media (min-width: 992px)
   .desktop 
@@ -397,6 +431,9 @@
     display: none
   .mts
     margin-top: 0.25rem  
+  .tarjeta--boton 
+    background-color: #F3E0E9
+    height: 450px
  
 @media (max-width: 991px)
   .movil 
@@ -405,3 +442,5 @@
     display: none
   .mts
     margin-top: -1.35rem
+  .tarjeta--boton 
+    background-color: #F3E0E9

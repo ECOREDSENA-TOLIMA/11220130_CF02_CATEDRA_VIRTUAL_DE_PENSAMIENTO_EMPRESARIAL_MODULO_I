@@ -118,28 +118,102 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: 'Creación e innovación',
+      referencia: 'Prado, D. (s.f.). Revista Recrearte.',
+      tipo: 'Página web',
+      link: 'https://www.yumpu.com/es/revistarecrearte.net',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Presupuesto para la promoción de ventas',
+      referencia:
+        'Gananci.com. (2015). 12 estrategias de promoción para aumentar tus ventas.',
+      tipo: 'Página web',
+      link: 'https://gananci.org/estrategias-de-promocion/',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Acciones promocionales',
+      significado:
+        'conjunto de actividades para motivar al consumidor hacia la compra de los productos o servicios.',
+    },
+    {
+      termino: 'Efectividad',
+      significado: 'es hacer las tareas correctamente.',
+    },
+    {
+      termino: 'Eficacia',
+      significado: 'es la capacidad de alcanzar un objetivo predeterminado.',
+    },
+    {
+      termino: 'Eficiencia',
+      significado:
+        'es cumplir un objetivo con el mínimo de los recursos disponibles en el menor tiempo posible.',
+    },
+    {
+      termino: 'Indicadores de gestión',
+      significado:
+        'son datos o números que indican los resultados de los procesos.',
+    },
+    {
+      termino: 'Mejoramiento estratégico',
+      significado:
+        'son las acciones de mejoramiento para corregir las fallas o errores.',
+    },
+    {
+      termino: 'Sistema de control',
+      significado:
+        'es un conjunto de instrumentos para administrar, dirigir o regular los procesos y procedimientos, con el objetivo de minimizar los errores y así alcanzar mejores resultados.',
     },
   ],
   referencias: [
     {
       referencia: 'Nombre_referencias',
       link: 'Link_referencias',
+    },
+    {
+      referencia:
+        'Cabrera, J. (2011). La innovación, el trabajo de todos. Cabrera Magnamment Consultants.',
+      link:
+        'https://www.managementsociety.net/2013/03/10/la-innovacion-el-trabajo-de-todos/',
+    },
+    {
+      referencia:
+        'Fred, D. (2008). Conceptos de Administración Estratégica. México. Pearson Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'González, M. (2002). Diseño de estrategias de comercialización.',
+      link:
+        'https://www.gestiopolis.com/diseno-estrategias-comercializacion/#goog_rewarded',
+    },
+    {
+      referencia:
+        'Prentice Hall. Crawford, R. (1980). Estrategias para la creatividad. Buenos Aires: Ed. Paidós.',
+      link: '',
+    },
+    {
+      referencia:
+        'Quijano, G. (2016). 4 Razones que hacen de Steve Jobs el Innovador más Grande del Mundo.',
+      link: 'http://www.marketingyfinanzas.net/2016/05/steve-jobs-innovador/',
+    },
+    {
+      referencia:
+        'Quijano, G. (2016). 5 Estrategias que toda Pyme debe tener Hoy para no Morir en el Mercado.',
+      link:
+        'http://www.marketingyfinanzas.net/2016/05/5-estrategias-que-toda-pyme-debe-tener-hoy/',
+    },
+    {
+      referencia:
+        'Rincón, L. y Rincón, A. (2009). Estrategias de Comercialización.',
+      link:
+        'http://marketingglobal2009.blogspot.com/2009/03/estrategias-de-comercializacion.html',
+    },
+    {
+      referencia:
+        'Schultz, E. y Robinson, W. (1995). Cómo dirigir la promoción de sus ventas: Una guía completa para incentivar las ventas de sus productos o servicios. Barcelona, España: Ediciones Gránica.',
+      link: '',
     },
   ],
   creditos: [

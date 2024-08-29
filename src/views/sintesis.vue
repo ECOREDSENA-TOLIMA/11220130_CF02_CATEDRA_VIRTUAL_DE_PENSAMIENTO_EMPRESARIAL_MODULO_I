@@ -3,12 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") Por medio del siguiente mapa conceptual, se presenta de manera precisa los aspectos más destacados de la temática tratada durante este componente formativo, los cuales hacen parte de la innovación y mejoramiento estratégico.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que contiene el mapa conceptual que resume la temática tratada durante este componente formativo, destacando que durante la planeación y mejoramiento estratégico de un plan, existen aspectos que tienen que ver con el comportamiento del mercado en el proceso de ventas, así como las acciones promocionales y el seguimiento y control de las estrategias de promoción.")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
