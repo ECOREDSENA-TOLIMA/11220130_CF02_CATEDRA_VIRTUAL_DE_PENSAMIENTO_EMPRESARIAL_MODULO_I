@@ -228,7 +228,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p Efectivamente, el proceso de innovación consta de cuatro etapas que serán descritas a continuación, cada una con sus elementos propios. Este proceso de innovación y su estructura se desagrega, tal como lo menciona José Cabrera, en su texto La innovación el trabajo de todos, de la siguiente manera:
-    
+      
     .row.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in")
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -312,9 +312,6 @@
                 li
                   i.fas.fa-angle-right
                   | Recurrir a la experimentación estratégica.
-
-
-
 </template>
 
 <script>
