@@ -42,7 +42,7 @@
             h3 ¿Cuáles son las técnicas de promoción de ventas?
         p Las técnicas de promoción de ventas, son las siguientes:
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-6
+          .col-lg-9
             ul.lista-ul
               li
                 i.fas.fa-calculator
@@ -282,7 +282,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img8_1.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2(data-aos="zoom-in")
+      .col-lg-2.d-lg-flex-d-none(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
       .col-lg-8(data-aos="fade-right")

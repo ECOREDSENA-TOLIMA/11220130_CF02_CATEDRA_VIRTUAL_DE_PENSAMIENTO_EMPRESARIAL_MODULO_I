@@ -10,12 +10,12 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p En la sociedad de la información y del conocimiento, la creación de empresa requiere la apropiación de conceptos orientados a generar ventaja competitiva, bajo la premisa de que los cambios del entorno son permanentes. La finalidad es ofertar productos y servicios innovadores, de tal forma que el consumidor compre beneficios y que el presupuesto de ventas se ejecute conforme a lo planeado en el plan estratégico; así como lo sugiere Giovanni Quijano en el análisis del texto: 4 Razones que hacen de Steve Jobs el Innovador más Grande del Mundo:
-    .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
+    .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 2.
       span  #[i  Razones de Steve Jobs]
 
     .row.justify-content-center.mb-5
-      .col-md-8.desktop(data-aos="zoom-in")
+      .col-md-10.desktop(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Imagen que menciona las 4 razones que hacen a Steve Jobs el individuo más destacado en el campo de la innovación y estas son la creatividad, la competitividad, la innovación y la información junto con el conocimiento.')
       .col-md-6.movil(data-aos="zoom-in")
@@ -29,7 +29,7 @@
       .col-lg-7
         .crd.clr--paleBlue.p-4.mb-3
           .row.justify-content-center.align-items-center          
-              .col-lg-3(data-aos="zoom-in")            
+              .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="zoom-in")            
                 figure
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
               .col-lg-9(data-aos="fade-right")
@@ -52,50 +52,48 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p Es una técnica creada por Robert P. Crawford en 1954, con el fin de generar ideas creativas, a través de la modificación, mejoramiento o perfeccionamiento de cualquier producto, servicio o proceso. Según Crawford, las características físicas, son esenciales para definir la creación. El procedimiento es el siguiente:
-    
-    
     .bg--gradientBlue.mb-4
       .row.justify-content-center.align-items-center.mb-5(style="margin-inline:3em;")
         .col-lg-8
           ol.lista-ol--cuadro.lista-ol--separador
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 1
               | Elección del producto.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 2
               | Identificación de sus componentes físicos.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 3
               | Descripción de las funciones de cada elemento, en términos de atributos.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 4
               | Análisis de los atributos, con la finalidad de decidir cuáles son esenciales y cuáles accesorios.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 5
               | Selección de los atributos esenciales.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 6
               | Identificación y selección de los atributos esenciales susceptibles de ser mejorados.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 7
               | Estudio de todas las posibles modificaciones de estos atributos, teniendo en cuenta que la mejora puede suponer el cambiar un atributo por otro.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 8
               | Estudio de todas las posibilidades del objeto como consecuencia de la substitución de los atributos.
-            li
+            li(style="margin-bottom: 2px")
               .lista-ol--cuadro__vineta
                 span 9
               | Selección del objeto nuevo, fruto de todas las modificaciones de los atributos.
 
-        .col-lg-4(data-aos="zoom-in")            
+        .col-lg-4.d-lg-flex-d-none(data-aos="zoom-in")            
           figure
             img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-4

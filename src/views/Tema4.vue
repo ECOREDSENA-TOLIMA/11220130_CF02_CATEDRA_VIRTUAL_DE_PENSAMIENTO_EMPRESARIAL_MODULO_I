@@ -44,10 +44,6 @@
         p La promoción de venta actúa sobre los recursos psicológicos propios de la misma, incentivando los comportamientos irracionales de los consumidores, como es el caso de los impulsos. Lo anterior no implica que no se utilice la razón, como en una oferta comparativa de precio. 
         p El incremento en las ventas por las promociones proviene de las siguientes fuentes:
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo
-      span tarjetas - conectadas
-
     .row.justify-content-center.mb-5
       .col-lg-9.position-relative
         h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
@@ -85,6 +81,7 @@
                 img(src="@/assets/curso/temas/tema4/img6.svg", alt="alt").img80
             .col
               h5 Ingreso de nuevos consumidores
+              p De quienes se dejan seducir ante la oferta promocional, sea temporal o permanentemente, pasando a ser nuevos consumidores.
       
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")

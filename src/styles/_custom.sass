@@ -103,7 +103,8 @@
 .b--rad
   border-radius: 0px 0px 20px 20px 
 .bg--gradientBlue
-  background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  //background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  background: linear-gradient(to bottom, #FFF, #F0F5FC,#FFF)
   margin-inline: -3rem 
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
@@ -146,7 +147,7 @@
 .clr--gray
   background-color: #F9F9F9
 .clr--paleBlue
-  background-color: #ECF3FB
+  background-color: #DFFAFF
 .clr--paleGreen
   background-color: #DEF2F4
 .clr-paleYellow
@@ -159,7 +160,11 @@
       p   
         color: #2e5d97
 
-  
+.lista-ol--cuadro__vineta
+  color: black
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
 
 //// Tarjetas --------------------------------------
 .crd
@@ -321,7 +326,7 @@ i.fas.fa-calculator
 
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-    background-color: #F6F6F6
+    background-color: #E7EFFB
 
 ///// Infografias --------------------------------------
 .l

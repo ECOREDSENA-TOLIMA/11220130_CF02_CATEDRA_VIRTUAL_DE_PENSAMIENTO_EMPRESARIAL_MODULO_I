@@ -45,7 +45,7 @@
           .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema5/img2.jpg', alt='Imagen decorativa')
-          .col-lg-8.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+          .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
             .row.justify-content-center.align-items-center
               .col-lg-12
               h4.titulo-cuarto(style="color:#615842")(data-aos='fade-right')
