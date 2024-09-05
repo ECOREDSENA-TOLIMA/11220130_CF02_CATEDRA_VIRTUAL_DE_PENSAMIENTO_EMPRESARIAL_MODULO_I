@@ -40,9 +40,10 @@
             img(src="@/assets/curso/temas/imgtitulo.svg")
           .cont-text 
             h3 ¿Cuáles son las técnicas de promoción de ventas?
+        
         p Las técnicas de promoción de ventas, son las siguientes:
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-9
+          .col-lg-6
             ul.lista-ul
               li
                 i.fas.fa-calculator
@@ -162,7 +163,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12(data-aos="fade-right")
-        p Son métodos que utilizan modelos matemáticos, econométricos o de marketing, basados en datos históricos. Estos, pueden incluir: participación en el mercado, precios, actividad de la competencia y variaciones anuales. Con el uso de las tecnologías, dichos métodos proveen beneficios dado que estas les suministran los datos requeridos para la elaboración del presupuesto. Por ejemplo:
+        p Son métodos que utilizan modelos matemáticos, econométricos o de #[i marketing], basados en datos históricos. Estos, pueden incluir: participación en el mercado, precios, actividad de la competencia y variaciones anuales. Con el uso de las tecnologías, dichos métodos proveen beneficios dado que estas les suministran los datos requeridos para la elaboración del presupuesto. Por ejemplo:
 
     
     .titulo-sexto.color-acento-contenido.offset-2
@@ -282,7 +283,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img8_1.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.d-lg-flex-d-none(data-aos="zoom-in")
+      .col-lg-2.d-lg-flex.d-none(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
       .col-lg-8(data-aos="fade-right")

@@ -95,7 +95,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
-        p La promoción y la estrategia son conceptos diferentes; sin embargo, la promoción es parte del marketing estratégico como factor que eleva la competitividad de la organización, lo cual se traduce en mayor cuota de participación en el mercado.
+        p La promoción y la estrategia son conceptos diferentes; sin embargo, la promoción es parte del #[i marketing] estratégico como factor que eleva la competitividad de la organización, lo cual se traduce en mayor cuota de participación en el mercado.
         p Como estrategia gerencial, la estrategia de promoción de venta es parte de un ciclo que inicia con la identificación del tipo de empresa y del mercado al cual dirige sus productos creativos e innovadores, desarrollados con características obtenidas con previa observación y análisis del comportamiento del mercado. Esta estrategia contiene el presupuesto de promoción de venta, herramienta que le permitirá al emprendedor, indicar cuánto es necesario invertir en acciones promocionales que eleven las ventas, con el fin de garantizar la rentabilidad de la empresa o idea de negocio.
 
     .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
@@ -246,24 +246,24 @@
         p Además de las anteriores estrategias, también, se encuentran las siguientes:
     
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-5(data-aos="zoom-in")
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
             .p-4
               h4 Segmentación del mercado
               p Consiste en dividir el mercado total de un bien o servicio en grupos más pequeños.
-      .col-lg-6(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-5(data-aos="zoom-in")
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img14.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
             .p-4
               h4 Extensión del mercado
               p Conjunto de acciones utilizadas en distintos momentos del ciclo de vida del producto, para sostener sus ventas y ganancias, en lugar de que sufra el declive normal.
-      .col-lg-6(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-5(data-aos="zoom-in")
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img15.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
@@ -271,7 +271,7 @@
               h4 Marcas múltiples
               p Consiste en la oferta de distintas marcas en una categoría determinada de productos.
       .col-lg-6(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull

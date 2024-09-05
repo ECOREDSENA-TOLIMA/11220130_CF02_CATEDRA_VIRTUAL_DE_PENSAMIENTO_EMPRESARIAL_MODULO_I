@@ -93,7 +93,7 @@
                 span 9
               | Selección del objeto nuevo, fruto de todas las modificaciones de los atributos.
 
-        .col-lg-4.d-lg-flex-d-none(data-aos="zoom-in")            
+        .col-lg-4.d-lg-flex.d-none(data-aos="zoom-in")            
           figure
             img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-4
@@ -105,29 +105,29 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img5.svg' alt='AvatarTop')
-        p #[b Elementos:] Producto
-        p #[b Definición:] Gestión de Conocimiento.
-        p #[b Caso:] Asesoría personalizada.
+        p #[b Elementos:] producto
+        p #[b Definición:] gestión de conocimiento.
+        p #[b Caso:] csesoría personalizada.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img6.svg' alt='AvatarTop')
-        p #[b Elementos:] Componentes Físicos.
-        p #[b Definición:] Café chat para investigar.
-        p #[b Caso:] Instalaciones modernas, equipos actualizados, alto soporte de internet, ambiente bioagradable.
+        p #[b Elementos:] componentes Físicos.
+        p #[b Definición:] café chat para investigar.
+        p #[b Caso:] instalaciones modernas, equipos actualizados, alto soporte de internet, ambiente bioagradable.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img7.svg' alt='AvatarTop')
-        p #[b Elementos:] Descripción de las funciones.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] Inducir y acompañar personalizadamente a los usuarios en la investigación.
+        p #[b Elementos:] descripción de las funciones.
+        p #[b Definición:] asesoría y consultoría.
+        p #[b Caso:] inducir y acompañar personalizadamente a los usuarios en la investigación.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img8.svg' alt='AvatarTop')
-        p #[b Elementos:] Análisis.
-        p #[b Definición:] Funciones operativas y de gestión.
+        p #[b Elementos:] análisis.
+        p #[b Definición:] funciones operativas y de gestión.
         p.mb-0 #[b Caso:] 
         p.mb-0 Accesorios: lo operativo.
         p Esencial: la gestión.
@@ -135,16 +135,16 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
-        p #[b Elementos:] Selección atributos esenciales.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] Permanente u ocasional.
+        p #[b Elementos:] selección atributos esenciales.
+        p #[b Definición:] assesoría y consultoría.
+        p #[b Caso:] permanente u ocasional.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop')
-        p #[b Elementos:] Identificación para mejorar.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] No hacer la investigación, acompañar y cogestionar.
+        p #[b Elementos:] identificación para mejorar.
+        p #[b Definición:] asesoría y consultoría.
+        p #[b Caso:] no hacer la investigación, acompañar y cogestionar.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
@@ -152,22 +152,22 @@
         p.mb-0 #[b Elementos:] 
         p.mb-0 Estudio.
         p Modificaciones.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] Diferenciar claramente que es una asesoría de una consultoría.
+        p #[b Definición:] asesoría y consultoría.
+        p #[b Caso:] diferenciar claramente que es una asesoría de una consultoría.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img12.svg' alt='AvatarTop')
-        p #[b Elementos:] Objeto por sustitución de atributos.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] No se deben confundir, deben ser complementarios.
+        p #[b Elementos:] objeto por sustitución de atributos.
+        p #[b Definición:] asesoría y consultoría.
+        p #[b Caso:] no se deben confundir, deben ser complementarios.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img13.svg' alt='AvatarTop')
-        p #[b Elementos:] Selección objeto nuevo.
-        p #[b Definición:] Asesoría y consultoría.
-        p #[b Caso:] Ofertar claramente lo esencial del servicio.
+        p #[b Elementos:] selección objeto nuevo.
+        p #[b Definición:] asesoría y consultoría.
+        p #[b Caso:] ofertar claramente lo esencial del servicio.
     
     .titulo-decorativo.my-5(data-aos="fade-up")
       .cont-figura
@@ -228,15 +228,19 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p Efectivamente, el proceso de innovación consta de cuatro etapas que serán descritas a continuación, cada una con sus elementos propios. Este proceso de innovación y su estructura se desagrega, tal como lo menciona José Cabrera, en su texto La innovación el trabajo de todos, de la siguiente manera:
-      
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in")
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Visualizar estrategias
-              ul.lista-ul
+                     
+    .row.justify-content-center.mb-4
+      .col-lg-3.col-md-6.col-11.mb-4
+        .crd_hover_txt(data-aos="flip-right")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/img14_1.jpg" alt="Imagen decorativa Visualizar estrategias")
+          .crd_hover_txt--body(style="background-color: #F0D9E4")
+            .title.d-flex.align-items-center.justify-content-center.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+              h4.mb-0 Visualizar estrategias
+            ul.lista-ul
                 li
                   i.fas.fa-angle-right
                   | Marco estratégico.
@@ -251,16 +255,18 @@
                   | Discutir la estrategia.
                 li
                   i.fas.fa-angle-right
-                  | Identificar posibles áreas de innovación. 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img14.png')})`}")
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in")
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img15.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Implementar ideas
-              ul.lista-ul
+                  | Identificar posibles áreas de innovación.
+      .col-lg-3.col-md-6.col-11.mb-4
+        .crd_hover_txt(data-aos="flip-right")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/img15_1.jpg" alt="Imagen decorativa Implementar ideas")
+          .crd_hover_txt--body(style="background-color: #F0D9E4")
+            .title.d-flex.align-items-center.justify-content-center.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+              h4.mb-0 Implementar ideas
+            ul.lista-ul
                 li
                   i.fas.fa-angle-right
                   | Identificar barreras.
@@ -280,38 +286,44 @@
                   i.fas.fa-angle-right
                   | Determinar el sentido de urgencia.
 
+      .col-lg-3.col-md-6.col-11.mb-4
+        .crd_hover_txt(data-aos="flip-up")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/img16_1.jpg" alt="Imagen decorativa Generar ideas")
+          .crd_hover_txt--body(style="background-color: #F0D9E4")
+            .title.d-flex.align-items-center.justify-content-center.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+              h4.mb-0 Generar ideas
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Generar las más ideas posibles.
+              li
+                i.fas.fa-angle-right
+                | Utilizar fuentes externas e internas.
+              li
+                i.fas.fa-angle-right
+                | Abarcar una diversidad de personas y puntos de vista.
 
-
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0(data-aos="zoom-in")
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Generar ideas
-              ul.lista-ul
-                li
-                  i.fas.fa-angle-right
-                  | Generar las más ideas posibles.
-                li
-                  i.fas.fa-angle-right
-                  | Utilizar fuentes externas e internas.
-                li
-                  i.fas.fa-angle-right
-                  | Abarcar una diversidad de personas y puntos de vista.
-
-      .col-sm-6.col-xl-3(data-aos="zoom-in")
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img17.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Evaluar ideas
-              ul.lista-ul
-                li
-                  i.fas.fa-angle-right
-                  | Utilizar un enfoque estructurado.
-                li
-                  i.fas.fa-angle-right
-                  | Recurrir a la experimentación estratégica.
+      .col-lg-3.col-md-6.col-11.mb-4
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/img17_1.jpg" alt="Imagen decorativa Evaluar ideas")
+          .crd_hover_txt--body(style="background-color: #F0D9E4")
+            .title.d-flex.align-items-center.justify-content-center.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+              h4.mb-0 Evaluar ideas
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Utilizar un enfoque estructurado.
+              li
+                i.fas.fa-angle-right
+                | Recurrir a la experimentación estratégica.
 </template>
 
 <script>

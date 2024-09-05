@@ -113,7 +113,7 @@
         P Existen tres:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-7.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -123,7 +123,7 @@
           h3.text-center Control del plan anual
           p Tiene como propósito examinar si los resultados previstos en el plan se han alcanzado y tomar las medidas correctoras cuando se considere necesario.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-7.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -133,7 +133,7 @@
           h3.text-center Control de la rentabilidad
           p Consiste en determinar dónde está ganando o perdiendo dinero la empresa.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-7.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-7

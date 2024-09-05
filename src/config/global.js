@@ -168,10 +168,6 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
-    },
-    {
       referencia:
         'Cabrera, J. (2011). La innovación, el trabajo de todos. Cabrera Magnamment Consultants.',
       link:
