@@ -29,18 +29,16 @@
         p El concepto mercado está directamente relacionado con el concepto de oferta, debido a que este involucra a los competidores, productores o fabricantes y la demanda a clientes y consumidores. En el mercado intervienen tanto competidores, como productores para realizar la compraventa de bienes y servicios. Existen diferentes estudios orientados a observar cómo y qué determina dicho comportamiento, con el fin de identificar tendencias, gustos y preferencias, disposición al consumo, entre otros factores. Tal es el caso de la planeación y de la psicología del consumidor.
         .cajon.color-secundario.p-4.mb-4
           p Lo anterior aporta conceptos y herramientas útiles al emprendedor para que conozca y defina los requisitos y especificaciones que deben tener los productos o servicios que llevará al mercado. Se trata de adquirir una marcada ventaja competitiva que lo diferenciará de los productos de los demás competidores, convirtiéndose en único frente a los clientes.
-     
+    
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.col-sm-8(data-aos="zoom-in")
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .desktop.bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img4.png')})`}"
-            )
-          .movil.bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img4_1.png')})`}"
-            )
-          .bloque-texto-g__texto.p-4
-            p.mb-0  El conocimiento del comportamiento del mercado es fundamental porque tanto la demanda como la oferta, orientadas al consumo, impactan la economía, las organizaciones y aspectos como el social, económico y ambiental.
+      .col-lg-10.col-sm-8.col-10(data-aos="zoom-in").bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-4.mb-4.mb-lg-0
+            h2.mb-0 ¿Por qué es immportante conocer el comportamiento del mercado?
+          .col-lg-8
+            .bloque-texto-a__texto.p-4
+              p El conocimiento del comportamiento del mercado es fundamental porque tanto la demanda como la oferta, orientadas al consumo, impactan la economía, las organizaciones y aspectos como el social, económico y ambiental.
+
     .bg--gradientBlue.mb-4
       .row.justify-content-center.align-items-center.mb-4(style="margin-inline:3em;")
         .col-lg-12

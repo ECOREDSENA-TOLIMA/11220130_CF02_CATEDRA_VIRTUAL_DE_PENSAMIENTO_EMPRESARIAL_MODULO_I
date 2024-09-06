@@ -105,15 +105,15 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img5.svg' alt='AvatarTop')
-        p #[b Elementos:] producto
+        p #[b Elementos:] producto.
         p #[b Definición:] gestión de conocimiento.
-        p #[b Caso:] csesoría personalizada.
+        p #[b Caso:] asesoría personalizada.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema2/img6.svg' alt='AvatarTop')
-        p #[b Elementos:] componentes Físicos.
-        p #[b Definición:] café chat para investigar.
+        p #[b Elementos:] componentes físicos.
+        p #[b Definición:] Café chat para investigar.
         p #[b Caso:] instalaciones modernas, equipos actualizados, alto soporte de internet, ambiente bioagradable.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
@@ -136,7 +136,7 @@
           .col-5
             img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
         p #[b Elementos:] selección atributos esenciales.
-        p #[b Definición:] assesoría y consultoría.
+        p #[b Definición:] asesoría y consultoría.
         p #[b Caso:] permanente u ocasional.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
@@ -230,12 +230,12 @@
         p Efectivamente, el proceso de innovación consta de cuatro etapas que serán descritas a continuación, cada una con sus elementos propios. Este proceso de innovación y su estructura se desagrega, tal como lo menciona José Cabrera, en su texto La innovación el trabajo de todos, de la siguiente manera:
                      
     .row.justify-content-center.mb-4
-      .col-lg-3.col-md-6.col-11.mb-4
+      .col-xl-3.col-md-6.col-11.mb-4
         .crd_hover_txt(data-aos="flip-right")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img14_1.jpg" alt="Imagen decorativa Visualizar estrategias")
-          .crd_hover_txt--body(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -256,12 +256,12 @@
                 li
                   i.fas.fa-angle-right
                   | Identificar posibles áreas de innovación.
-      .col-lg-3.col-md-6.col-11.mb-4
+      .col-xl-3.col-md-6.col-11.mb-4
         .crd_hover_txt(data-aos="flip-right")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img15_1.jpg" alt="Imagen decorativa Implementar ideas")
-          .crd_hover_txt--body(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -286,12 +286,12 @@
                   i.fas.fa-angle-right
                   | Determinar el sentido de urgencia.
 
-      .col-lg-3.col-md-6.col-11.mb-4
+      .col-xl-3.col-md-6.col-11.mb-4
         .crd_hover_txt(data-aos="flip-up")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img16_1.jpg" alt="Imagen decorativa Generar ideas")
-          .crd_hover_txt--body(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -307,12 +307,12 @@
                 i.fas.fa-angle-right
                 | Abarcar una diversidad de personas y puntos de vista.
 
-      .col-lg-3.col-md-6.col-11.mb-4
+      .col-xl-3.col-md-6.col-11.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img17_1.jpg" alt="Imagen decorativa Evaluar ideas")
-          .crd_hover_txt--body(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3

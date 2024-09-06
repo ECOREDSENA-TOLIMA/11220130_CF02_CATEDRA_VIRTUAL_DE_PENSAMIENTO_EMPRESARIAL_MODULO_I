@@ -246,32 +246,32 @@
         p Además de las anteriores estrategias, también, se encuentran las siguientes:
     
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-5(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-lg-6.mb-4(data-aos="fade-left")
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
             .p-4
               h4 Segmentación del mercado
               p Consiste en dividir el mercado total de un bien o servicio en grupos más pequeños.
-      .col-lg-6.mb-5(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-lg-6.mb-4(data-aos="fade-left")
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img14.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
             .p-4
               h4 Extensión del mercado
               p Conjunto de acciones utilizadas en distintos momentos del ciclo de vida del producto, para sostener sus ventas y ganancias, en lugar de que sufra el declive normal.
-      .col-lg-6.mb-5(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-lg-6.mb-4(data-aos="fade-left")
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img15.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
             .p-4
               h4 Marcas múltiples
               p Consiste en la oferta de distintas marcas en una categoría determinada de productos.
-      .col-lg-6(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-lg-6.mb-4(data-aos="fade-left")
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azull
