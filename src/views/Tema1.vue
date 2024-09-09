@@ -34,7 +34,7 @@
       .col-lg-10.col-sm-8.col-10(data-aos="zoom-in").bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
-            h2.mb-0 ¿Por qué es immportante conocer el comportamiento del mercado?
+            h2.mb-0 ¿Por qué es importante conocer el comportamiento del mercado?
           .col-lg-8
             .bloque-texto-a__texto.p-4
               p El conocimiento del comportamiento del mercado es fundamental porque tanto la demanda como la oferta, orientadas al consumo, impactan la economía, las organizaciones y aspectos como el social, económico y ambiental.
@@ -56,6 +56,8 @@
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Desde el punto de vista del producto, las empresas se deben basar en los deseos, gustos y preferencias del cliente, es ahí donde se encuentra toda la información suficiente para crear, innovar y sacar ofertas al mercado con valor agregado, cuya ventaja competitiva incremente las ventas y garantiza el cumplimiento de las mismas.
+
+          
 
 </template>
 
