@@ -113,7 +113,7 @@
           .col-5
             img(src='@/assets/curso/temas/tema2/img6.svg' alt='AvatarTop')
         p #[b Elementos:] componentes físicos.
-        p #[b Definición:] Café chat para investigar.
+        p #[b Definición:] café chat para investigar.
         p #[b Caso:] instalaciones modernas, equipos actualizados, alto soporte de internet, ambiente bioagradable.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3

@@ -274,7 +274,7 @@
           .tarjeta.color-acento-contenido.p-3(x="47%" y="13%" numero="+")
             p Son las diversas formas y estilos que tiene el vendedor de transmitir el mensaje.
           .tarjeta.color-acento-contenido.p-3(x="55%" y="28.5%" numero="+")
-            p Contenido de la información que se trasmite al potencial de compradores.
+            p Contenido de la información que se transmite al potencial de compradores.
           .tarjeta.color-acento-contenido.p-3(x="82%" y="65%" numero="+")
             p Persona que potencialmente recibe el mensaje.
           .tarjeta.color-acento-contenido.p-3(x="29%" y="76.5%" numero="+")

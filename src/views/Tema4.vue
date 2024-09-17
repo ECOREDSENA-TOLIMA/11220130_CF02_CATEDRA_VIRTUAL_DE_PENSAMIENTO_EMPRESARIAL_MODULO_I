@@ -143,7 +143,7 @@
               | Estimular a consumir más de lo mismo o a probar nuevos productos o servicios.
             li
               i.fas.fa-calculator
-              | Dar a conocer un producto o servicio nuevo
+              | Dar a conocer un producto o servicio nuevo.
 
 
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")

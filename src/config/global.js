@@ -268,12 +268,12 @@ export default {
         },
         {
           nombre: 'Veimar Celis Melendez',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
